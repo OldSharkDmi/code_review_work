@@ -27,7 +27,7 @@ public class Calculator {
     public int solver() {
         int result = add(10, 2);
         result = times(result, 5);
-        int result = dif(10, 2);
+        result = dif(10, 2);
         result = div(result, 2);
         return result;
     }
