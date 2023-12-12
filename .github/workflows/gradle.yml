@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        java: [17.0.0+35, 16.0.2+7, 11.0.21+9]
+        java: [17, 16, 11]
     steps:
     - uses: actions/checkout@v3
     - name: Set executable permissions for Gradle Wrapper
